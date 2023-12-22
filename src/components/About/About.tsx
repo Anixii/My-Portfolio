@@ -1,4 +1,3 @@
-import React from 'react'
 // import HeroBgAnimation from '../HeroBgAnimation'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
