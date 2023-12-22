@@ -85,6 +85,27 @@
   box-shadow: 20px 20px 60px #1f2634;
   filter: brightness(1);
 }
+.about__image{ 
+  width: 100%;
+  display: flex;
+  order: 2;
+  -webkit-box-pack: end;
+  justify-content: end;
+  gap: 12px
+} 
+.about__bg{ 
+  position: absolute;
+  display: flex;
+  -webkit-box-pack: end;
+  justify-content: end;
+  inset: 50% 0px 0px 50%;
+  width: 100%;
+  height: 100%;
+  max-width: 1360px;
+  overflow: hidden;
+  padding: 0px 30px;
+  transform: translateX(-50%) translateY(-50%);
+}
 @media screen and (max-width: 960px) {
   .about__text {
     order: 2;

@@ -1,14 +1,15 @@
 // import HeroBgAnimation from '../HeroBgAnimation'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
-import  './About.css'
+import  './About.css' 
+import AnimatedBack from '../AnimatedBack/AnimatedBack'
 import { Link } from 'react-router-dom';
 const HeroSection = () => {
     return (
         <div id="about">
             <div className='about'>
                 <div className='about__bg'>
-                    {/* <HeroBgAnimation /> */}
+                    <AnimatedBack/>
                 </div>
                 <div className='about__inner_container' >
                     <div className='about__text' id="Left">
