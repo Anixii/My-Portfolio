@@ -4,6 +4,8 @@ import NavBar from './components/Navbar/NavBar';
 import About from './components/About/About'
 import Skills from './components/Skills/Skills';
 import Experience from './components/Experience/Experience';
+import Education from './components/Education/Education';
+import Footer from './Footer/Footer';
 function App() {
   // const [openModal, setOpenModal] = useState({ state: false, project: null });
   return (
@@ -14,7 +16,11 @@ function App() {
         <div className='wrapper'> 
           <Skills/> 
           <Experience/>
-        </div>
+        </div> 
+        <div className='wrapper'> 
+          <Education/>
+        </div> 
+        <Footer/>
       </div>
     </>
   )
