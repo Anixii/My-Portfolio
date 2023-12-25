@@ -1,4 +1,3 @@
-// import HeroBgAnimation from '../HeroBgAnimation'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
 import  './About.css' 

@@ -19,12 +19,6 @@ const ProjectCards = ({project,setOpenModal}:ProjectType) => {
                 <div className="projects__card_date">{project.date}</div>
                 <div className="projects__card_desc">{project.description}</div>
             </div>
-            {/* <div className="projects__card_members">
-                {project.member?.map((member,index) => (
-                    <img className="projects__card_avatar" key={index} src={member.img}/>
-                ))}
-            </div> */}
-            {/* <Button>View Project</Button> */}
         </div>
     )
 }
