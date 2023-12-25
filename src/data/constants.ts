@@ -14,7 +14,7 @@ export const Bio = {
     `,
   github: "https://github.com/Anixii",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+    "https://drive.google.com/file/d/1uuKMr6i6WDmT_GIAud_ntAwkXj8Y4wEX/view",
   linkedin: "https://www.linkedin.com/in/erbol-kenzhebekov-51099a25b/",
   insta: "https://www.instagram.com/anixii_/",
   telegram: "https://t.me/anixiiH",
