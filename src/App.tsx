@@ -1,4 +1,4 @@
-// import { useState } from 'react';
+import { useState } from 'react';
 import './App.css'
 import NavBar from './components/Navbar/NavBar';
 import About from './components/About/About'
@@ -6,8 +6,10 @@ import Skills from './components/Skills/Skills';
 import Experience from './components/Experience/Experience';
 import Education from './components/Education/Education';
 import Footer from './Footer/Footer';
+import Projects from './components/Projects/Projects';
+import ProjectDetails from './components/Projects/ProjectDetails';
 function App() {
-  // const [openModal, setOpenModal] = useState({ state: false, project: null });
+  const [openModal, setOpenModal] = useState({ state: false, project: null });
   return (
     <>
       <NavBar/> 
@@ -16,11 +18,15 @@ function App() {
         <div className='wrapper'> 
           <Skills/> 
           <Experience/>
-        </div> 
+        </div>  
+        <Projects openModal={openModal} setOpenModal={setOpenModal} />
         <div className='wrapper'> 
           <Education/>
         </div> 
-        <Footer/>
+        <Footer/> 
+        {openModal.state &&
+            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+          }
       </div>
     </>
   )
