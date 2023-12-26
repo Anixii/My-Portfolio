@@ -27,12 +27,12 @@ const HeroSection = () => {
                             </span>
                         </div>
                         <div className='about__subtitle'>{Bio.description}</div>
-                        <Link className='about__resume' to={Bio.resume} target='display'>Check Resume</Link>
+                        <Link className='about__resume' to={Bio.resume} target='display'>Резюме</Link>
                     </div>
 
                     <div className='about__image' id="Right">
 
-                        <img src={ava} className='about__img' alt="" />
+                        {/* <img src={ava} className='about__img' alt="" /> */}
                     </div>
                 </div>
 
