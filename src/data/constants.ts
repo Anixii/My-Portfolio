@@ -226,6 +226,25 @@ export const projects = [
     webapp: "https://anixi-movies.vercel.app/",
   },
   {
+    id: 9,
+    title: "Portfolio",
+    date: "Дек 2023",
+    description: 
+    'Portfolio - веб-сайт, где вы можете изнать обо мне больше. Тут расположенна вся информация обо мне, моем опыте и проеках.',
+    image: 
+    'https://firebasestorage.googleapis.com/v0/b/trikmap-39edf.appspot.com/o/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-12-27%20231231.png?alt=media&token=6b4fa784-0500-4c5c-b527-b6b27960e0a7',
+    tags: [
+      "React",
+      "TS",
+      "HTML",
+      "CSS",
+      'Vite'
+    ],
+    category: "web app",
+    github: "https://github.com/Anixii/My-Portfolio",
+    webapp: "https://my-portfolio-anixii.vercel.app/",
+  },
+  {
     id: 0,
     title: "Rick and Morty",
     date: "Сен 2023",
