@@ -3,7 +3,6 @@ import { Bio } from '../../data/constants';
 import  './About.css' 
 import AnimatedBack from '../AnimatedBack/AnimatedBack'
 import { Link } from 'react-router-dom'; 
-import ava from '../../assets/Avatar-32.svg'
 const HeroSection = () => {
     return (
         <div id="about">
@@ -31,8 +30,6 @@ const HeroSection = () => {
                     </div>
 
                     <div className='about__image' id="Right">
-
-                        {/* <img src={ava} className='about__img' alt="" /> */}
                     </div>
                 </div>
 
