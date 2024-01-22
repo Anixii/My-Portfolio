@@ -227,6 +227,28 @@ export const projects = [
   },
   {
     id: 9,
+    title: "YouTube Clone",
+    date: "Янв 2024",
+    description: 
+    'YouTube Clone - это клон популярной соц. сети YouTube. С базой данных из Rapid API',
+    image: 
+    'https://firebasestorage.googleapis.com/v0/b/trikmap-39edf.appspot.com/o/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-01-23%20003238.png?alt=media&token=f9f4904d-4cd8-4ce4-ac70-d83466c640ad',
+    tags: [
+      "React",
+      "REST API",
+      "TS",
+      "HTML",
+      "CSS",
+      "Redux",
+      'Chakra UI',
+      'Axios'
+    ],
+    category: "web app",
+    github: "https://github.com/Anixii/YouTube-Clone",
+    webapp: "https://whimsical-jalebi-4d17fe.netlify.app/",
+  },
+  {
+    id: 9,
     title: "Portfolio",
     date: "Дек 2023",
     description: 
@@ -255,7 +277,7 @@ export const projects = [
     tags: ["Next","TypeScript", "Redux-Toolkit",'REST API',"Ant Design", "HTML", "CSS", ],
     category: "web app",
     github: "https://github.com/Anixii/Rick-Morty",
-    webapp: "https://rick-morty-lime.vercel.app/",
+    webapp: "https://rick-morty-lime.vercel.app/", 
   },
   {
     id: 1,
