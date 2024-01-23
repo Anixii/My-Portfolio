@@ -249,6 +249,26 @@ export const projects = [
   },
   {
     id: 9,
+    title: "Тест для ОРТ",
+    date: "Янв 2024",
+    description: 
+    'Тест для ОРТ - это веб-приложения для онлайн-тестирование учеников из Кыргызстана. В данном приложении можно добавлять учеников, предметы, тесты, смотреть результаты, проходить тесты.',
+    image: 
+    'https://firebasestorage.googleapis.com/v0/b/trikmap-39edf.appspot.com/o/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-01-23%20202216.png?alt=media&token=4b9a8bbf-bff0-4bab-aa77-0090d963b8ed',
+    tags: [
+      "React",
+      "REST API",
+      "TS",
+      "Redux",
+      'Axios',
+      "HTML",
+      "CSS",
+    ],
+    category: "web app",
+    webapp: "https://sensational-kashata-4041df.netlify.app/",
+  },
+  {
+    id: 9,
     title: "Portfolio",
     date: "Дек 2023",
     description: 
