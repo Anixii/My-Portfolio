@@ -210,7 +210,7 @@ export const projects = [
     description: 
     'AnixiiMovies - инновационный стриминговый сервис для просмотра фильмов, сериалов и телепередач. Платформа предоставляет пользователям удобный доступ к обширной библиотеке контента, используя API TMDB.Пользователи могут легко находить фильмы и сериалы, а также получать подробную информацию о них, такую как рейтинги, рецензии, трейлеры и многое другое.',
     image: 
-    'https://firebasestorage.googleapis.com/v0/b/trikmap-39edf.appspot.com/o/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-12-25%20222246.png?alt=media&token=bb2c52fa-7a1a-4fc5-af8f-a45044413450',
+    'https://i.imgur.com/DgCIMZD.png',
     tags: [
       "React",
       "REST API",
@@ -249,6 +249,37 @@ export const projects = [
   },
   {
     id: 9,
+    title: "Anime HUB",
+    date: "Март 2024",
+    description: 
+    'Anime HUB - источник информации об аниме и манге. Поиск, обзоры, рейтинги. Узнайте о любимых сериалах и поделитесь впечатлениями!',
+    image: 
+    'https://i.imgur.com/QFBtFhQ.png',
+    tags: [
+      "Next",
+      "Tailwind",
+      "TS",
+      "shadcn UI",
+    ],
+    category: "web app",
+    github: "https://github.com/Anixii/Ani-Anime",
+    webapp: "https://ani-anime.netlify.app/",
+  },
+  {
+    id: 3,
+    title: "Trikmap",
+    date: "May 2023",
+    description:
+      "Trikmap — это интерактивный путеводитель по Кыргызстану, созданный на ReactJs. Проект предназначен как для туристов, так и для жителей Кыргызстана, которые ищут информацию о достопримечательностях и исторических местах в городах страны.",
+    image:
+      "https://i.imgur.com/fMKovtz.png",
+    tags: ["React", 'JS','Firebase' ,'Swiper', 'Redux', 'Leaflet', 'Framer-motion'],
+    category: "web app",
+    github: "https://github.com/Anixii/Trikmap",
+    webapp: "https://trikmap.vercel.app/",
+  },
+  {
+    id: 9,
     title: "Тест для ОРТ",
     date: "Янв 2024",
     description: 
@@ -274,7 +305,7 @@ export const projects = [
     description: 
     'Portfolio - веб-сайт, где вы можете изнать обо мне больше. Тут расположенна вся информация обо мне, моем опыте и проеках.',
     image: 
-    'https://firebasestorage.googleapis.com/v0/b/trikmap-39edf.appspot.com/o/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-12-27%20231231.png?alt=media&token=6b4fa784-0500-4c5c-b527-b6b27960e0a7',
+    'https://i.imgur.com/j0X30FC.png',
     tags: [
       "React",
       "TS",
@@ -332,19 +363,6 @@ export const projects = [
     github: "https://github.com/Anixii/Country-App",
     webapp: "https://country-app-amber.vercel.app/",
    
-  },
-  {
-    id: 3,
-    title: "Trikmap",
-    date: "May 2023",
-    description:
-      "Trikmap — это интерактивный путеводитель по Кыргызстану, созданный на ReactJs. Проект предназначен как для туристов, так и для жителей Кыргызстана, которые ищут информацию о достопримечательностях и исторических местах в городах страны.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/trikmap-39edf.appspot.com/o/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-12-25%20222707.png?alt=media&token=ae093920-dbc4-4cd5-b033-60e290839af1",
-    tags: ["React", 'JS','Firebase' ,'Swiper', 'Redux', 'Leaflet', 'Framer-motion'],
-    category: "web app",
-    github: "https://github.com/Anixii/Trikmap",
-    webapp: "https://trikmap.vercel.app/",
   },
   {
     id: 4,
